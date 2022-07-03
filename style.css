@@ -3,7 +3,9 @@ body{
     height: 100vh;
     justify-content: center;
     align-items: center;
-    background:linear-gradient(#61a1c0,#23a4e5,#1c82b4,#93c6de)
+    background:linear-gradient(#61a1c0,#23a4e5,#1c82b4,#93c6de);
+    font-weight: 400;
+
 
 }
 .container{
@@ -12,6 +14,7 @@ body{
     background:#edf2f5;
     padding: 25px 30px;
     border-radius: 5px;
+
 }
 .container .title{
     font-size: 27px;
@@ -34,7 +37,7 @@ body{
     margin: 20px 0 12px 0;
 }
 form .user-details .input-box{
-    bottm-margin: 15px;
+    margin-bottom: 30px;
     width: calc(100 / 2 - 20px);
 
 }
@@ -42,6 +45,7 @@ form .user-details .input-box{
     display: block;
     font-weight: 500;
     margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 .user-details .input-box input{
     height: 40px;
@@ -51,7 +55,7 @@ form .user-details .input-box{
     border: 1px solid #ccc;
     padding-left: 15px;
     font-size: 16px;
-    border-bottom-width: 2px;
+    border-bottom-width: 10px;
     transition: all 0.3s ease;
 }
 .user-details .input-box .input:focus,
@@ -64,7 +68,7 @@ form .gender-details .gender-title{
 }
 form .gender-details .category{
     display: flex;
-    width: 80%;
+    width: 50%;
     margin: 14px 0;
     justify-content: space-between;
 }
@@ -73,8 +77,8 @@ form .gender-details .category{
      align-items: center;
 }
 .gender-details .category .dot{
-    height: 15px;
-    width: 15px;
+    height: 10px;
+    width: 10px;
     background: rgb(154, 153, 152);
     border-radius: 50%;
     margin-right: 10px;
@@ -112,6 +116,19 @@ form .button input:hover{
     background:linear-gradient(-135deg,#23a4e5,#1c82b4,#93c6de)
 
 }
+.button1{color:black;
+    background-color:skyblue;
+    border-radius :5px;
+    padding: 5px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    font-weight: 400;
+
+    }
+    a{
+        color: black;
+    }
 @media (max-width:584px){
     .container{
         max-width: 100%;
